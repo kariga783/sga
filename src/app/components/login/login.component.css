@@ -1,0 +1,78 @@
+label, p, li, a, h1, h2, h3, h4 {
+    font-family: 'Segoe UI';
+}
+
+.tnm{
+    z-index: 3;
+  }
+  .itd{
+    float: right;
+    margin-top: -60px;
+    z-index: 3;
+  }
+  .logos{
+    /* height: 60px;; */
+    z-index: 3;
+  }
+  .titulo h1{
+    top: 30px;
+    font-size: 30px !important;
+    color: #ffffff;
+    z-index: 3;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  .fondoLogE {
+    padding: 0px;
+    width: 100%;
+    height: 50%;
+    background-image:linear-gradient(0deg, #FFFFFF, #7D022B);
+    position: absolute;
+    top :0px;
+    left : 0px;
+    }
+    .logE{
+      height: auto;
+      width: auto;
+      border: 1px solid #646464;
+      background: #ffffff;
+      border-radius: 103px;
+      position: relative;
+      display: block;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+      .boton{
+      text-decoration: none;
+      padding: 3px;
+      padding-left: 50px;
+      padding-right: 50px;
+      font-weight: 300;
+      font-size: 25px;
+      font-style: italic;
+      color: white;
+      background-color: #7D022B;
+      border-radius: 15px;
+      border: 3px double white;
+    }
+    .boton:hover{
+      opacity: 0.6;
+      text-decoration: none;
+    }
+  
+  p{
+    color: #7d022b; 
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center;
+  }
+  .logEHeader h1{
+    color: #7d022b; 
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    line-height: 24px !important;
+  }
+  

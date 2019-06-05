@@ -1,0 +1,337 @@
+.menu{
+    /* width: 110px; */
+    height: 762px;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(148deg, #7D022B, #7D022B);
+    position: relative;
+    display: flex;
+  }
+  
+  .homeM{
+    top: 10px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .userM{
+    top: 120px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .documentosM{
+    top: 230px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .programasM{    
+    top: 340px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .tutorialesM{
+    top: 450px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .salonesM{
+    top: 560px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .logout{
+    top: 670px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .resaltarInicio{
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarPerfil{
+    top: 110px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarDocumentos{
+    top: 220px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarProgramas{
+    top: 330px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarTutoriales{
+    top: 440px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarSalones{
+    top: 550px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+
+
+h1{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center;
+  }
+  h2{
+    position: absolute;
+    color: #7d022b;
+  }
+  h6{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  p{
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  label{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  input{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  td{
+    width: 15px;
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: #7D022B solid;
+  }
+
+  label{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }
+  .buscador{
+    margin-top: 30px;
+    position: relative;
+    /* display: flex; */
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center !important;
+    }
+    #buscador{
+      margin-bottom: 30px;
+    }
+    #searchBar{
+      margin-bottom: 20px;
+    }
+    label{
+        color:#ffffff !important;
+    }
+    label:hover{
+        color: blue !important; 
+        font-style: italic;
+        cursor: pointer;
+    }
+    .file{
+        background-color: #7d022b;
+        margin-top:15px;
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+    }
+    .visualCode{
+        background-color: #4b385c;
+        margin-top:8px;
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+    }
+    .title{
+        margin-right: 20px;
+    }
+    /* VISUALCODE */
+    #visualCodeImg{
+        margin-top: 20px;
+    }
+    #visualWindows{
+        visibility: hidden;
+    }
+    #visualMAC{
+        visibility: hidden;
+    }
+    #visualDebUb{
+        visibility: hidden;
+    }
+    #visualRhFeSu{
+        visibility: hidden;
+    }
+    /* VIRTUALBOX */
+    .virtualBox{
+        background-color: #4b385c;
+        margin-top:8px;
+        border-radius: 30px;
+        align-content: center;
+        align-items: center;
+    }
+    #virtualBoxImg{
+        margin-top: 20px;
+    }
+    #vbWindows{
+        visibility: hidden;
+    }
+    #vbMAC{
+        visibility: hidden;
+    }
+    #vbDeb{
+        visibility: hidden;
+    }
+    
+    
+    
+    
+    /* popup */
+    .file h4{
+        color: #ffffff;
+    }
+    
+    .overlay{
+        background: rgba(0, 0, 0, .3);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 3 ;
+        visibility: hidden;
+    }
+    .overlay.active{
+        visibility: visible;
+    }
+    .popup{
+        background: #7D022B;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+        border-radius: 3px;
+        font-family: "Segoe UI";
+        padding: 20px;
+        text-align: center;
+        width: 600px;
+    }
+    .popup .btn-cerrar-popup{
+        font-size: 16px;
+        line-height: 16px;
+        display: block;
+        text-align: right;
+        color: #bbbbbb;
+        transition: .3s ease all;
+    }
+    .popup .btn-cerrar-popup:hover{
+        color: #000000; 
+    }

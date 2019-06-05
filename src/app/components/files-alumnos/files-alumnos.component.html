@@ -1,3 +1,100 @@
-<p>
-  files-alumnos works!
-</p>
+<div class="container-fluid">
+  <div class="main row" style=" height: 350px;">
+    <div class="menu col-md-1 col-lg-1" >
+        <div class="homeM">
+          <a href="/alumnosInicio">
+            <img src="/assets/images/home.png"
+            style="width: 35px; height: 35px;">  
+            <p>Inicio</p>
+          </a>
+        </div>
+        <div class="userM">
+          <a href="/alumnosPerfil">
+            <img src="/assets/images/user (2).png"
+            style="width: 35px; height: 35px;">  
+          </a>
+          <p>Perfil</p>
+        </div>
+        <div class="documentosM">
+          <a href="/alumnosDoc">
+            <img src="/assets/images/file.png"
+            style="width: 35px; height: 35px;">
+          </a>
+          <p>Documentos</p>
+        </div>
+        <div class="programasM">
+          <a href="/alumnosFiles">
+            <img src="/assets/images/web.png"
+            style="width: 35px; height: 35px;">
+          </a>
+          <p>Programas</p>
+        </div>
+        <div class="tutorialesM">
+          <a href="/alumnosTutoriales">
+            <img src="/assets/images/play-button.png"
+            style="width: 35px; height: 35px;">
+          </a>
+          <p>Tutoriales</p>
+        </div>
+        <div class="salonesM">
+          <a href="/alumnosSalones">
+            <img src="/assets/images/chair.png"
+            style="width: 35px; height: 35px;">
+          </a>
+          <p>Salones</p>
+        </div>
+        <div class="logout">
+          <a href="/index">
+            <img src="/assets/images/exit.png"
+            style="width: 35px; height: 35px;">  
+            <p>Salir</p>
+          </a>
+        </div>
+        <div class="resaltarProgramas">
+        </div>
+      </div>
+      <div class="espacio col-md-2 col-lg-2"></div>
+      <div class="buscador col-md-6 col-lg-6" id="search" style="overflow: scroll;">
+        <INPUT TYPE="text" name="bucadorDocumetos" id="searchBar" placeholder="Buscar..." value="" size="25"/>
+        <ul id="directory">
+          <li>
+            <div class="file" style="width: 100%; height: 100px;">
+              <h4 class="title">Visual Studio Code.</h4>
+              <br>
+              <label id="click" for="name" onclick="show()">Ver archivos descarga</label>
+            </div>
+            <!-- DESCARGAS DE VISUAL CODE -->
+            <div class="visualCode" id="visualCode" style="width: 100%; height: 0px;">
+                <img src="images/visualCode.png" style="width: 70px; height:0px;" id="visualCodeImg">
+                <br>
+                <a id="visualWindows" href="programs/VSCodeUserSetup-x64-1.32.3.exe" >Descargar para Windows</a><br>
+                <a href="programs/VSCode-darwin-stable.zip" id="visualMAC">Descargar para MAC</a><br>
+                <a href="programs/code_1.34.0-1557957934_amd64.deb" id="visualDebUb">Descargar para DEBIAN O UBUNTU</a><br>
+                <a href="programs/code-1.34.0-1557958058.el7.x86_64.rpm" id="visualRhFeSu">Descargar para RED HAT, FEDORA O SUSE</a>      
+            </div>
+          </li>
+          <li>
+            <div class="file" style="width: 100%; height: 100px;">
+              <h4 class="title">VirtualBox.</h4>
+              <br>
+              <label for="name" onclick="showVb()">Ver archivos descarga</label>
+            </div>
+                <!-- DESCARGAS DE VISUAL CODE -->
+              <div class="virtualBox" id="virtualBox" style="width: 100%; height: 0px;">
+                <img src="/images/Virtualbox_logo.png" style="width: 70px; height:0px;" id="virtualBoxImg">
+                <br>
+                <a id="vbWindows" href="programs/VirtualBox-6.0.4-128413-Win.exe" >Descargar para Windows</a><br>
+                <a href="programs/VirtualBox-6.0.8-130520-OSX.dmg" id="vbMAC">Descargar para MAC</a><br>
+                <a href="programs/virtualbox-6.0_6.0.8-130520_Debian_stretch_amd64.deb" id="vbDeb">Descargar para DEBIAN</a><br>            
+              </div>
+          </li>
+        </ul>
+      </div> 
+      <div class="espacio col-md-3 col-lg-3"></div>
+    </div>
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+          <a id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times" ></i></a>
+          <h3>DESCARGA INICIADA</h3>
+      </div>
+  </div>

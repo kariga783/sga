@@ -1,0 +1,782 @@
+/* CSS MENU */
+.peticion{
+    top: 570px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .menu{
+    /* width: 110px; */
+    height: 762px;
+    top: 0px;
+    left: 0px !important;
+    background-image: linear-gradient(148deg, #7D022B, #7D022B);
+    position: relative;
+    display: flex;
+  }
+
+  .homeM{
+    top: 10px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .userM{
+    top: 105px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .documentosM{
+    top: 190px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .programasM{    
+    top: 290px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .tutorialesM{
+    top: 380px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .salonesM{
+    top: 470px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .logout{
+    top: 670px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .resaltarInicio{
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarPerfil{
+    top: 90px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarDocumentos{
+    top: 175px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarProgramas{
+    top: 280px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarTutoriales{
+    top: 370px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarSalones{
+    top: 465px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+
+  .resaltarPeticiones{
+    top: 560px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  /* CSS INFO */
+  .informacion{
+    width: auto;
+    height: 350px;;
+}
+.top{
+    margin-top:45px;
+}
+
+.detalles:hover{
+    font-style: italic;
+    cursor: pointer;
+}
+
+.detallesPlantaAlta:hover{
+    font-style: italic;
+    cursor: pointer;
+}
+
+#downstairs{
+    visibility: hidden;
+}
+#lc25{
+    visibility: hidden;
+}
+#lc24{
+    visibility: hidden;
+}
+#lc22{
+    visibility: hidden;
+}
+#redes{
+    visibility: hidden;
+}
+
+/* CSS MAPA */
+.mapa .pB{
+    margin-left: 0px;
+    margin-top:20px;
+    visibility: visible;
+    position: absolute;
+    z-index: 2 !important;
+}
+.mapa .pA{
+    margin-left: 0px;
+    margin-top:20px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1 !important;
+}
+/* CSS POPUP1 */
+.overlay{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlay.active{
+    visibility: visible;
+}
+.popup{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popup .btn-cerrar-popup{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popup .btn-cerrar-popup:hover{
+    color: #000000; 
+}
+/* CSS POPUP AREA 2 */
+.a2 a{
+    position: absolute ;
+    top:100px;
+    left:1300px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+}
+.a2 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popup2{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popup2 .btn-cerrar-popup2{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popup2 .btn-cerrar-popup2:hover{
+    color: #000000; 
+}
+.overlay2{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlay2.active{
+    visibility: visible;
+}
+/* CSS POPUP 3 */
+.a3 a{
+    position: absolute ;
+    top:100px;
+    left:900px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+}
+.a3 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popup3{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popup3 .btn-cerrar-popup3{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popup3 .btn-cerrar-popup3:hover{
+    color: #000000; 
+}
+.overlay3{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlay3.active{
+    visibility: visible;
+}
+
+/*Area4*/
+.a4 a{
+    position: absolute ;
+    top:100px;
+    left:400px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+}
+.a4 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popup4{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popup4 .btn-cerrar-popup4{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popup4 .btn-cerrar-popup4:hover{
+    color: #000000; 
+}
+.overlay4{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlay4.active{
+    visibility: visible;
+}
+/*Jefatura*/
+.jefatura a{
+    position: absolute ;
+    top:580px;
+    left:1200px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+}
+.jefatura a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popupjefatura{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popupjefatura .btn-cerrar-popupjefatura{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popupjefatura .btn-cerrar-popupjefatura:hover{
+    color: #000000; 
+}
+.overlayjefatura{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlayjefatura.active{
+    visibility: visible;
+}
+/*Caseta*/
+.caseta a{
+    position: absolute ;
+    top:580px;
+    left:850px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+}
+.caseta a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popupcaseta{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popupcaseta .btn-cerrar-popupcaseta{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popupcaseta .btn-cerrar-popupcaseta:hover{
+    color: #000000; 
+}
+.overlaycaseta{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlaycaseta.active{
+    visibility: visible;
+}
+/*LC25*/
+.lc25 a{
+    position: absolute ;
+    top:100px;
+    left:350px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+    display: none;
+}
+.lc25 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popuplc25{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popuplc25 .btn-cerrar-popuplc25{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popuplc25 .btn-cerrar-popuplc25:hover{
+    color: #000000; 
+}
+.overlaylc25{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlaylc25.active{
+    visibility: visible;
+}
+/*LC24*/
+.lc24 a{
+    position: absolute ;
+    top:100px;
+    left:800px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+    display: none;
+}
+.lc24 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popuplc24{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popuplc24 .btn-cerrar-popuplc24{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popuplc24 .btn-cerrar-popuplc24:hover{
+    color: #000000; 
+}
+.overlaylc24{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlaylc24.active{
+    visibility: visible;
+}
+/*LC22*/
+.lc22 a{
+    position: absolute ;
+    top:100px;
+    left:1250px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+    display: none;
+}
+.lc22 a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popuplc22{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popuplc22 .btn-cerrar-popuplc22{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popuplc22 .btn-cerrar-popuplc22:hover{
+    color: #000000; 
+}
+.overlaylc22{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlaylc22.active{
+    visibility: visible;
+}
+/*redes*/
+.redes a{
+    position: absolute ;
+    top:430px;
+    left:1270px; ;
+    z-index: 3 ;
+    font-family: "Segoe UI" ;
+    font-size: 30px ;
+    color:#ffff !important;
+    display: none;
+}
+.redes a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+    font-style: italic !important;
+}
+.popupredes{
+    background: #7D022B;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+    font-family: "Segoe UI";
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.popupredes .btn-cerrar-popupredes{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #bbbbbb;
+    transition: .3s ease all;
+}
+.popupredes .btn-cerrar-popupredes:hover{
+    color: #000000; 
+}
+.overlayredes{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3 ;
+    visibility: hidden;
+}
+.overlayredes.active{
+    visibility: visible;
+}
+/* CSS GENERAL */
+  h1{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center;
+  }
+  h2{
+    position: absolute;
+    color: #7d022b;
+  }
+  h6{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  p{
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  label{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  input{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  td{
+    width: 15px;
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: #7D022B solid;
+  }
+
+  label{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }

@@ -1,3 +1,93 @@
-<p>
-  peticiones-maestros works!
-</p>
+<div class="container-fluid">
+  <div class="main row" style=" height: 350px;">
+    <div class="menu col-md-1 col-lg-1" >
+      <div class="homeM">
+        <a href="/maestrosInicio">
+          <img src="/assets/images/home.png"
+          style="width: 35px; height: 35px;">  
+          <p>Inicio</p>
+        </a>
+      </div>
+      <div class="userM">
+        <a href="/maestrosPerfil">
+          <img src="/assets/images/user (2).png"
+          style="width: 35px; height: 35px;">  
+        </a>
+        <p>Perfil</p>
+      </div>
+      <div class="documentosM">
+        <a href="/maestrosDoc">
+          <img src="/assets/images/file.png"
+          style="width: 35px; height: 35px;">
+        </a>
+        <p>Documentos</p>
+      </div>
+      <div class="programasM">
+        <a href="/maestrosFiles">
+          <img src="/assets/images/web.png"
+          style="width: 35px; height: 35px;">
+        </a>
+        <p>Programas</p>
+      </div>
+      <div class="tutorialesM">
+        <a href="/maestrosTutoriales">
+          <img src="/assets/images/play-button.png"
+          style="width: 35px; height: 35px;">
+        </a>
+        <p>Tutoriales</p>
+      </div>
+      <div class="salonesM">
+        <a href="/maestrosSalones">
+          <img src="/assets/images/chair.png"
+          style="width: 35px; height: 35px;">
+        </a>
+        <p>Salones</p>
+      </div>
+      <div class="peticion">
+        <a href="/maestrosPeticiones">
+          <img src="/assets/images/envelope.png"
+          style="width: 35px; height: 35px;">
+        </a>
+        <p>Peteciones</p>       
+      </div>
+      <div class="logout">
+        <a href="/index">
+          <img src="/assets/images/exit.png"
+          style="width: 35px; height: 35px;">  
+          <p>Salir</p>
+        </a>
+      </div>
+      <div class="resaltarSalones">
+      </div>
+    </div>
+    <div class="espacio col-md-3 col-lg-3"></div> 
+    <div class="petision col-md-4 col-lg-4">
+      <b><h1>Llene el formulario para realizar su petisión sobre el material que requiere en el SGA</h1></b><br>
+      <form name="form1" method="post" action="mailto:15041232@itdurango.edu.mx" enctype="application/x-www-form-urlencoded">
+        <label for="name" >Nombre del maestro</label><input type="text" class="txt"> <br><br>
+        <label for="file"id="file">Nombre del archivo</label><input type="text" class="txt"> <br><br>
+        <label for="type"id="type">Tipo del material</label>
+        <div class="grupo">
+          <label for="opt1" class="radio">
+              <input type="radio" name="typeFile" value="Documento" class="doc">Documento
+          </label>
+          <label for="opt2" class="radio">
+              <input type="radio" name="typeFile" value="Instalador" class="ar">Instalador
+          </label>
+          <label for="opt3" class="radio">
+              <input type="radio" name="typeFile" value="Video" class="vid">Video
+          </label>
+        </div>
+        <br>
+        <label for="link" class="link"">link(s) del archivo</label><br>
+        <textarea name="textarea" rows="5" cols="40" class="txtA1"></textarea><br>
+        <label for="link" class="descripcion">Descripción</label><br>
+        <textarea name="textarea" rows="5" cols="40" class="txtA2"></textarea><br>
+        <div class="botones">
+        <input type="submit" class="enviar" name="Submit" value="Enviar">
+        <button  class="cancelar">Cancelar</button>
+      </form>
+    </div>
+    <div class="espacio col-md-4 col-lg-4"></div> 
+  </div>
+</div>

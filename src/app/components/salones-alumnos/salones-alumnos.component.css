@@ -1,0 +1,207 @@
+.menu{
+    height: 608px;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(148deg, #7D022B, #7D022B);
+    position: relative;
+    display: flex;
+  }
+  
+  .homeM{
+    top: 30px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .userM{
+    top: 110px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .documentosM{
+    top: 200px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .programasM{    
+    top: 290px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .tutorialesM{
+    top: 380px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .salonesM{
+    top: 460px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .logout{
+    top: 540px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .resaltarInicio{
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarPerfil{
+    top: 110px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarDocumentos{
+    top: 220px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarProgramas{
+    top: 330px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarTutoriales{
+    top: 440px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  .resaltarSalones{
+    top: 445px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+
+  h1{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center;
+  }
+  h2{
+    position: absolute;
+    color: #7d022b;
+  }
+  h6{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  p{
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  label{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  input{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  td{
+    width: 15px;
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: #7D022B solid;
+  }
+
+  label{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }

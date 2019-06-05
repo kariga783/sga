@@ -1,145 +1,142 @@
 .menu{
-    /* width: 110px; */
-    height: 762px;
-    top: 0px;
-    left: 0px;
-    background-image: linear-gradient(148deg, #7D022B, #7D022B);
-    position: relative;
-    display: flex;
-  }
-  
-  .homeM{
-    top: 10px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .userM{
-    top: 120px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .documentosM{
-    top: 230px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .programasM{    
-    top: 340px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .tutorialesM{
-    top: 450px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .salonesM{
-    top: 560px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  .logout{
-    top: 670px;
-    width: 15px;
-    height: 30px;
-    left: 25px;
-    position: absolute;
-    z-index: 3;
-  }
-  
-  .resaltarInicio{
-    top: 0px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
-  
-  .resaltarPerfil{
-    top: 110px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    position: absolute;
-    z-index: 3;
-    color: gray;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
-  
-  .resaltarDocumentos{
-    top: 220px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    position: absolute;
-    z-index: 3;
-    color: gray;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
-  
-  .resaltarProgramas{
-    top: 330px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    position: absolute;
-    z-index: 3;
-    color: gray;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
-  
-  .resaltarTutoriales{
-    top: 440px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    position: absolute;
-    z-index: 3;
-    color: gray;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
-  
-  .resaltarSalones{
-    top: 550px;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    position: absolute;
-    z-index: 3;
-    color: gray;
-    z-index: 2;
-    position: absolute;
-    background-image: linear-gradient(160deg, white, #7D022B);
-  }
+  height: 608px;
+  top: 0px;
+  left: 0px;
+  background-image: linear-gradient(148deg, #7D022B, #7D022B);
+  position: relative;
+  display: flex;
+}
 
+.homeM{
+  top: 30px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.userM{
+  top: 110px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.documentosM{
+  top: 200px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.programasM{    
+  top: 290px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.tutorialesM{
+  top: 380px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.salonesM{
+  top: 460px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+.logout{
+  top: 540px;
+  width: 15px;
+  height: 30px;
+  left: 25px;
+  position: absolute;
+  z-index: 3;
+}
+
+.resaltarInicio{
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
+
+.resaltarPerfil{
+  top: 90px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  color: gray;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
+
+.resaltarDocumentos{
+  top: 220px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  color: gray;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
+
+.resaltarProgramas{
+  top: 330px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  color: gray;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
+
+.resaltarTutoriales{
+  top: 440px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  color: gray;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
+.resaltarSalones{
+  top: 445px;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  z-index: 3;
+  color: gray;
+  z-index: 2;
+  position: absolute;
+  background-image: linear-gradient(160deg, white, #7D022B);
+}
 
   .imagen{
     margin-top: 30px !important;

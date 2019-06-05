@@ -1,0 +1,297 @@
+.menu{
+    /* width: 110px; */
+    height: 762px;
+    top: 0px;
+    left: 0px;
+    background-image: linear-gradient(148deg, #7D022B, #7D022B);
+    position: relative;
+    display: flex;
+  }
+  
+  .homeM{
+    top: 10px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .userM{
+    top: 120px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .documentosM{
+    top: 230px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .programasM{    
+    top: 340px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .tutorialesM{
+    top: 450px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .salonesM{
+    top: 560px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  .logout{
+    top: 670px;
+    width: 15px;
+    height: 30px;
+    left: 25px;
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .resaltarInicio{
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarPerfil{
+    top: 110px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarDocumentos{
+    top: 220px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarProgramas{
+    top: 330px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarTutoriales{
+    top: 440px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  
+  .resaltarSalones{
+    top: 550px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    position: absolute;
+    z-index: 3;
+    color: gray;
+    z-index: 2;
+    position: absolute;
+    background-image: linear-gradient(160deg, white, #7D022B);
+  }
+  h1{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: center;
+  }
+  h2{
+    position: absolute;
+    color: #7d022b;
+  }
+  h6{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  p{
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  label{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  input{
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  td{
+    width: 15px;
+    color: #7d022b;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: #7D022B solid;
+  }
+
+  label{
+    color: #7d022b; 
+    font-family: "Segoe UI";
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }
+
+  .mision{
+    top:320px;
+     display: flex;
+     border-radius: 103px;
+     margin-top: 60px;
+     position: relative;
+     height: 300px;
+     width: 400px;
+     background-image: linear-gradient(148deg, #7D022B, #7D022B);
+     text-align: justify;
+     display: flex;
+     align-items: center;
+     padding: 10px;
+   }
+   .mision h1{
+     color: #ffffff;
+     text-align: left;
+     text-decoration: underline;
+     font-style: italic;
+   }
+   .mision p{
+     margin-left: 15px;
+     color: #ffffff;
+     text-align: left;
+     display: flex;
+   }
+   .vision{
+     float: right;
+     top:380px;
+     padding: 10px;
+     border-radius: 103px;
+     position: relative;
+     height: 300px;
+     width: 400px;
+     background-image: linear-gradient(148deg, #7D022B, #7D022B);
+     text-align: justify;
+     display: flex;
+     align-items: center;
+   }
+   .vision h1{
+     color: #ffffff;
+     text-align: left;
+     text-decoration: underline;
+     font-style: italic;
+   }
+   .vision p{
+     margin-left: 15px;
+     color: #ffffff;
+     text-align: left;
+     display: flex;
+   }
+   .banner{
+     width: 95%;
+     height: 300px;
+     border: 5px solid #7D022B;
+     /* margin: auto; */
+     margin-top: 50px;
+     /* background-image: url(imagenes/bayonetta.jpg); */
+     background-size: 100% 100%;
+     animation: banner 10s infinite;
+     animation-direction: alternate;
+     position: absolute;
+   }
+ 
+   @keyframes banner{
+     0%, 30%{
+       background-image: url('../../../assets/images/evaluacion.jpg');
+       opacity: 1;
+     }
+   
+     31%, 34%{
+       opacity: 0.1;
+     }
+   
+     35%, 65%{
+       background-image: url('../../../assets/images/bolsaTrabajo.jpg');
+       opacity: 1;
+     }
+     66%, 69%{
+       opacity: 0.1;
+     }
+   
+     70%, 100%{
+       background-image: url('../../../assets/images/simulacro.png');
+       opacity: 1;
+     }
+   
+   }

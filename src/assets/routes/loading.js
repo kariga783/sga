@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var moment = require('moment');
 
-
+// RUTAS DE ALUMNOS
 router.get('/inicioAlumnos', (req, res, next) => {
     res.sendFile('inicioAlumnos');
   });
@@ -21,8 +21,10 @@ router.get('/tutorialesAlumnos', (req,res,next)=>{
 router.get('/salonesAlumnos', (req,res,next)=>{
   res.sendFile('salonesAlumnos');
 });
+// RUTAS DE MAESTROS
+
+// RUTA DE LOGOUT
 router.get('/', (req,res,next)=>{
   res.sendFile('');
 });
-
   module.exports = router;

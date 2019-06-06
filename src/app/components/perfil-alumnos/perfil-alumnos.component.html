@@ -1,55 +1,62 @@
 <div class="container-fluid">
     <div class="main row" style=" height: 350px;">
-      <div class="menu col-md-1 col-lg-1" >
-          <div class="homeM">
-            <a href="/alumnosInicio">
-              <img src="assets/images/home.png"
-              style="width: 35px; height: 35px;">  
-              <p>Inicio</p>
-            </a>
-          </div>
-          <div class="userM">
-            <a href="/alumnosPerfil">
-              <img src="assets/images/user (2).png"
-              style="width: 35px; height: 35px;">  
-            </a>
-            <p>Perfil</p>
-          </div>
-          <div class="documentosM">
-            <a href="/alumnosDoc">
-              <img src="assets/images/file.png"
-              style="width: 35px; height: 35px;">
-            </a>
-            <p>Documentos</p>
-          </div>
-          <div class="programasM">
-            <a href="/alumnosFiles">
-              <img src="assets/images/web.png"
-              style="width: 35px; height: 35px;">
-            </a>
-            <p>Programas</p>
-          </div>
-          <div class="tutorialesM">
-            <a href="/alumnosTutoriales">
-              <img src="assets/images/play-button.png"
-              style="width: 35px; height: 35px;">
-            </a>
-            <p>Tutoriales</p>
-          </div>
-          <div class="salonesM">
-            <a href="/alumnosSalones">
-              <img src="assets/images/chair.png"
-              style="width: 35px; height: 35px;">
-            </a>
-            <p>Salones</p>
-          </div>
-          <div class="logout">
-            <a href="/index">
-              <img src="assets/images/exit.png"
-              style="width: 35px; height: 35px;">  
-              <p>Salir</p>
-            </a>
-          </div>
+        <div class="menu col-md-1 col-lg-1" >
+            <div class="homeM">
+              <a>
+                <img src="/assets/images/home.png"
+                style="width: 35px; height: 35px;"
+                (click)="inicioAlumnos()">  
+                <p>Inicio</p>
+              </a>
+            </div>
+            <div class="userM">
+              <a>
+                <img src="/assets/images/user (2).png"
+                style="width: 35px; height: 35px;"
+                (click)="perfilAlumnos()">  
+              </a>
+              <p>Perfil</p>
+            </div>
+            <div class="documentosM">
+              <a>
+                <img src="/assets/images/file.png"
+                style="width: 35px; height: 35px;"
+                (click)="documentosAlumnos()">
+              </a>
+              <p>Documentos</p>
+            </div>
+            <div class="programasM">
+              <a>
+                <img src="/assets/images/web.png"
+                style="width: 35px; height: 35px;"
+                (click)="filesAlumnos()">
+              </a>
+              <p>Programas</p>
+            </div>
+            <div class="tutorialesM">
+              <a>
+                <img src="/assets/images/play-button.png"
+                style="width: 35px; height: 35px;"
+                (click)="tutorialesAlumnos()">
+              </a>
+              <p>Tutoriales</p>
+            </div>
+            <div class="salonesM">
+              <a>
+                <img src="/assets/images/chair.png"
+                style="width: 35px; height: 35px;"
+                (click)="salonesAlumnos()">
+              </a>
+              <p>Salones</p>
+            </div>
+            <div class="logout">
+              <a>
+                <img src="/assets/images/exit.png"
+                style="width: 35px; height: 35px;"
+                (click)="logout()">  
+                <p>Salir</p>
+              </a>
+            </div>
           <div class="resaltarPerfil">
           </div>
         </div>

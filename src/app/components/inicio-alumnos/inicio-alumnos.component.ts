@@ -34,5 +34,5 @@ export class InicioAlumnosComponent implements OnInit {
   };
   logout(){
     this.router.navigate(['/']);
-  }
+  };
 }

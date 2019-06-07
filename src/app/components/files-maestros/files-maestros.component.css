@@ -161,6 +161,7 @@
     position: absolute;
     background-image: linear-gradient(160deg, white, #7D022B);
   }
+
   h1{
       color: #7d022b; 
       font-family: "Segoe UI";
@@ -228,86 +229,96 @@
     li{
       list-style: none;
     }
-    
-  .buscador{
-    margin-top: 30px;
-    position: relative;
-    /* display: flex; */
-    color: #7d022b;
-    font-family: "Segoe UI";
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    line-height: 24px !important;
-    text-align: center !important;
-    }
-    #buscador{
-      margin-bottom: 30px;
-    }
-    #searchBar{
-      margin-bottom: 20px;
-    }
-    label{
-        color:#ffffff !important;
-    }
-    label:hover{
-        color: blue !important; 
-        font-style: italic;
-        cursor: pointer;
-    }
-    .file{
-        background-color: #7d022b;
-        margin-top:15px;
-        border-radius: 30px;
-        align-content: center;
-        align-items: center;
-        display: flex;
-        position: relative;
-        text-align: center;
-        justify-content: center;
-    }
-    .visualCode{
-        background-color: #4b385c;
-        margin-top:8px;
-        border-radius: 30px;
-        align-content: center;
-        align-items: center;
-    }
-    .title{
-        margin-right: 20px;
-    }
-    /* VISUALCODE */
-    #visualCodeImg{
-        margin-top: 20px;
-    }
-    #visualWindows{
+    .buscador{
+      margin-top: 30px;
+      position: relative;
+      /* display: flex; */
+      color: #7d022b;
+      font-family: "Segoe UI";
+      font-size: 18px !important;
+      font-weight: 400 !important;
+      line-height: 24px !important;
+      text-align: center !important;
+      }
+      #buscador{
+        margin-bottom: 30px;
+      }
+      #searchBar{
+        margin-bottom: 20px;
+      }
+      #labelVisual{
         visibility: hidden;
-    }
-    #visualMAC{
-        visibility: hidden;
-    }
-    #visualDebUb{
-        visibility: hidden;
-    }
-    #visualRhFeSu{
-        visibility: hidden;
-    }
-    /* VIRTUALBOX */
-    .virtualBox{
-        background-color: #4b385c;
-        margin-top:8px;
-        border-radius: 30px;
-        align-content: center;
-        align-items: center;
-    }
-    #virtualBoxImg{
-        margin-top: 20px;
-    }
-    #vbWindows{
-        visibility: hidden;
-    }
-    #vbMAC{
-        visibility: hidden;
-    }
-    #vbDeb{
-        visibility: hidden;
-    }
+      }
+      label{
+          color:#ffffff !important;
+      }
+      label:hover{
+          color: blue !important; 
+          font-style: italic;
+          cursor: pointer;
+      }
+      .file{
+          background-color: #7d022b;
+          margin-top:15px;
+          border-radius: 30px;
+          align-content: center;
+          align-items: center;
+          display: flex;
+          position: relative;
+          text-align: center;
+          justify-content: center;
+      }
+      .visualCode{
+          background-color: #4b385c;
+          margin-top:8px;
+          border-radius: 30px;
+          align-content: center;
+          align-items: center;
+      }
+      .title{
+          margin-right: 20px;
+      }
+      /* VISUALCODE */
+      #visualCodeImg{
+          margin-top: 20px;
+      }
+      #visualWindows{
+          visibility: hidden;
+      }
+      #visualMAC{
+          visibility: hidden;
+      }
+      #visualDebUb{
+          visibility: hidden;
+      }
+      #visualRhFeSu{
+          visibility: hidden;
+      }
+      /* VIRTUALBOX */
+      .virtualBox{
+          background-color: #4b385c;
+          margin-top:8px;
+          border-radius: 30px;
+          align-content: center;
+          align-items: center;
+      }
+      #virtualBoxImg{
+          margin-top: 20px;
+      }
+      #vbWindows{
+          visibility: hidden;
+      }
+      #vbMAC{
+          visibility: hidden;
+      }
+      #vbDeb{
+          visibility: hidden;
+      }
+      
+      
+      
+      
+      /* popup */
+      .file h4{
+          color: #ffffff;
+      }

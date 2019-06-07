@@ -1,94 +1,90 @@
-    <div class="container-fluid">
-      <div class="main row" style=" height: 350px;">
-          <div class="menu col-md-1 col-lg-1" >
-              <div class="homeM">
-                <a>
-                  <img src="/assets/images/home.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="inicioAlumnos()">  
-                  <p>Inicio</p>
-                </a>
-              </div>
-              <div class="userM">
-                <a>
-                  <img src="/assets/images/user (2).png"
-                  style="width: 35px; height: 35px;"
-                  (click)="perfilAlumnos()">  
-                </a>
-                <p>Perfil</p>
-              </div>
-              <div class="documentosM">
-                <a>
-                  <img src="/assets/images/file.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="documentosAlumnos()">
-                </a>
-                <p>Documentos</p>
-              </div>
-              <div class="programasM">
-                <a>
-                  <img src="/assets/images/web.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="filesAlumnos()">
-                </a>
-                <p>Programas</p>
-              </div>
-              <div class="tutorialesM">
-                <a>
-                  <img src="/assets/images/play-button.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="tutorialesAlumnos()">
-                </a>
-                <p>Tutoriales</p>
-              </div>
-              <div class="salonesM">
-                <a>
-                  <img src="/assets/images/chair.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="salonesAlumnos()">
-                </a>
-                <p>Salones</p>
-              </div>
-              <div class="logout">
-                <a>
-                  <img src="/assets/images/exit.png"
-                  style="width: 35px; height: 35px;"
-                  (click)="logout()">  
-                  <p>Salir</p>
-                </a>
-              </div>
-            <div class="resaltarDocumentos">
-            </div>
+<div class="container-fluid">
+  <div class="main row" style=" height: 350px;">
+    <div class="menu col-md-1 col-lg-1" >
+          <div class="homeM">
+            <a>
+              <img src="/assets/images/home.png"
+              style="width: 35px; height: 35px;"
+              (click)="inicioAlumnos()">  
+              <p>Inicio</p>
+            </a>
           </div>
-          <div class="espacio col-md-2 col-lg-2"></div>
-          <div class="buscador col-md-6 col-lg-6" id="search" style="overflow: scroll;">
-            <INPUT TYPE="text" name="bucadorDocumetos" id="searchBar" placeholder="Buscar..." value="" size="25"/>
-            <ul id="directory">
-              <li>
-                <div class="doc" style="width: 100%; height: 100px;">
-                  <h4>Prolog Programing For artificial Inteligence(PDF).</h4>
-                  <a href="/descargar/PROLOG.pdf" target="_blank" id="prolog">Consultar</a>
-                </div>
-              </li>
-              <li>
-                <div class="doc" style="width: 100%; height: 100px;">
-                    <h4 >Reporte de monitoreo proxy(DOC).</h4>
-                    <a id="abrir-popup" href="/descargar/proxy_monitoreo_15041232_15041214.docx" >Descaragar</a>
-                </div>
-              </li>
-              <li>
-                <div class="doc" style="width: 100%; height: 100px;">
-                  <h4>Super Mario Bros hecho con HTML(ZIP).</h4>
-                  <a id="abrir-popup2"href="/descargar/mario.zip">Descaragar</a>
-                </div>
-              </li>
-            </ul>
-          </div> 
-          <div class="espacio col-md-3 col-lg-3"></div>
+          <div class="userM">
+            <a>
+              <img src="/assets/images/user (2).png"
+              style="width: 35px; height: 35px;"
+              (click)="perfilAlumnos()">  
+            </a>
+            <p>Perfil</p>
+          </div>
+          <div class="documentosM">
+            <a>
+              <img src="/assets/images/file.png"
+              style="width: 35px; height: 35px;"
+              (click)="documentosAlumnos()">
+            </a>
+            <p>Documentos</p>
+          </div>
+          <div class="programasM">
+            <a>
+              <img src="/assets/images/web.png"
+              style="width: 35px; height: 35px;"
+              (click)="filesAlumnos()">
+            </a>
+            <p>Programas</p>
+          </div>
+          <div class="tutorialesM">
+            <a>
+              <img src="/assets/images/play-button.png"
+              style="width: 35px; height: 35px;"
+              (click)="tutorialesAlumnos()">
+            </a>
+            <p>Tutoriales</p>
+          </div>
+          <div class="salonesM">
+            <a>
+              <img src="/assets/images/chair.png"
+              style="width: 35px; height: 35px;"
+              (click)="salonesAlumnos()">
+            </a>
+            <p>Salones</p>
+          </div>
+          <div class="logout">
+            <a>
+              <img src="/assets/images/exit.png"
+              style="width: 35px; height: 35px;"
+              (click)="logout()">  
+              <p>Salir</p>
+            </a>
+          </div>
+        <div class="resaltarDocumentos">
         </div>
-        <div class="overlay" id="overlay">
-          <div class="popup" id="popup">
-              <a id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times" ></i></a>
-              <h3>DESCARGA INICIADA</h3>
+    </div>
+    <div class="espacio col-md-2 col-lg-2"></div>
+    <div class="buscador col-md-6 col-lg-6" id="search" style="overflow: scroll;">
+      <INPUT TYPE="text" name="bucadorDocumetos" id="searchBar" placeholder="Buscar..." value="" size="25"/>
+      <ul id="directory">
+        <li>
+            <div class="doc" style="width: 100%; height: 100px;">
+              <h4>Prolog Programing For artificial Inteligence(PDF).</h4>
+              <a href="/assets/descargar/PROLOG.pdf" target="_blank" id="prolog">Consultar</a>
+            </div>
+        </li>
+        <li>
+          <div class="doc" style="width: 100%; height: 100px;">
+            <h4 >Reporte de monitoreo proxy(DOC).</h4>
+            <a href="/assets/descargar/proxy_monitoreo_15041232_15041214.docx">Descaragar</a>
           </div>
-      </div>
+        </li>
+        <li>
+          <div class="doc" style="width: 100%; height: 100px;">
+            <h4>Super Mario Bros hecho con HTML(ZIP).</h4>
+            <a href="/assets//descargar/mario.zip">Descaragar</a>
+          </div>
+        </li>
+      </ul>
+    </div> 
+    <div class="espacio col-md-3 col-lg-3"></div>
+  </div>
+</div>
+       

@@ -40,7 +40,7 @@ import { PeticionesMaestrosComponent } from './components/peticiones-maestros/pe
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

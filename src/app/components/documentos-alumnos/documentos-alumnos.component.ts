@@ -8,6 +8,8 @@ import * as $ from 'jquery';
   templateUrl: './documentos-alumnos.component.html',
   styleUrls: ['./documentos-alumnos.component.css']
 })
+
+
 export class DocumentosAlumnosComponent implements OnInit {
 
   constructor( private http: HttpClient, private router: Router ) { }

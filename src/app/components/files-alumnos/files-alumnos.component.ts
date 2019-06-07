@@ -36,7 +36,18 @@ export class FilesAlumnosComponent implements OnInit {
   logout(){
     this.router.navigate(['/']);
   };
-
+  insertVisualStudio(){
+    var usuario
+    this.http.post(`http://localhost:3001/routes/postInsertarDescargaVisual`,usuario).subscribe(info => {
+      console.log("visual insert");
+    });
+  };
+  insertVB(){
+    var usuario
+    this.http.post(`http://localhost:3001/routes/postInsertarDescargaVirtualBox`,usuario).subscribe(info => {
+      console.log("visual insert");
+    });
+  };
   mostrarVisual(){
     var visualCode = $('#visualCode'),
         visualCodeImg = $('#visualCodeImg'),

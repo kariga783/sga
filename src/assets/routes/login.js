@@ -23,5 +23,35 @@ router.post('/postLogin', (req, res, next) => {
       } else{ next(new Error("Datos erroneos")); }
     })
   });
+router.post('/hola',(req,res)=>{
+  console.log("Hola");
+})
+router.post('/postInsertarDescargaVisual',(res,req)=>{
+  query.insertarDescargaVisual().then(data=>{
+    console.log("insert done")
+  })
+});
+
+router.post('/postInsertarDescargaVirtualBox',(res,req)=>{
+  query.insertarDescargaVirtual().then(info=>{
+    console.log("insert done")
+  })
+});
+
+router.post('/postInsertarDescargaPrologPdf',(res,req)=>{
+  query.insertarDescargaPrlogPdf().then(info=>{
+    console.log("insert done")
+  })
+});
+router.post('/postInsertarDescargaProxiDoc',(res,req)=>{
+  query.insertarDescargaProxiDoc().then(info=>{
+    console.log("insert done")
+  })
+});
+router.post('/postInsertarDescargaMarioHtml',(res,req)=>{
+  query.insertarDescargaMarioHtml().then(info=>{
+    console.log("insert done")
+  })
+});
 
   module.exports = router;

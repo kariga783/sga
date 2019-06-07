@@ -18,6 +18,11 @@ app.use('/routes', login);
 app.use('/routes/postLogin', login);
 app.use('/loading', loading);
 app.use('/loading/inicioAlumnos', loading);
+app.use('/routes/postInsertarDescargaPrologPdf',login);
+app.use('/routes/postInsertarDescargaVisual',login);
+app.use('/routes/postInsertarDescargaVirtualBox',login);
+app.use('/routes/postInsertarDescargaProxiDoc',login);
+app.use('/routes/postInsertarDescargaMarioHtml',login);
 
 app.use(express.static(__dirname + '/dist/sga'));
 

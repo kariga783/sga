@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import * as $ from 'jquery';
 
-interface Respuesta { resultados: string[]; }
+
 
 @Component({
   selector: 'app-documentos-alumnos',
@@ -43,7 +43,19 @@ export class DocumentosAlumnosComponent implements OnInit {
 
   insertProlog(){
     var usuario
-    this.http.post<Respuesta>(`http://localhost:3001/routes/postInsertarDescargaPrologPdf`,usuario).subscribe(info => {
+    this.http.post(`http://localhost:3001/routes/postInsertarDescargaPrologPdf`,usuario).subscribe(info => {
+      console.log("Prolog insert");
+    });
+  }
+  insertProxi(){
+    var usuario
+    this.http.post(`http://localhost:3001/routes/postInsertarDescargaProxiDoc`,usuario).subscribe(info => {
+      console.log("Prolog insert");
+    });
+  }
+  insertMario(){
+    var usuario
+    this.http.post(`http://localhost:3001/routes/postInsertarDescargaMarioHtml`,usuario).subscribe(info => {
       console.log("Prolog insert");
     });
   }

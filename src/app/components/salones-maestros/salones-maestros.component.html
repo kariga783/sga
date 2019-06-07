@@ -64,65 +64,89 @@
     <div class="informacion col-md-1 col-lg-1">
       <div class="top"></div>
       <div class="detalles" id="detalles1">
-        <h3 id="abrir-popup">A1</h3>
+        <h3 data-toggle="modal" data-target="#modalArea1">A1</h3>
       </div>
       <div class="detalles"id="detalles2">
-        <h3 id="abrir-popup2">A2</h3>
+        <h3 data-toggle="modal" data-target="#modalArea2">A2</h3>
       </div>
       <div class="detalles" id="detalles3">
-        <h3 id="abrir-popup3">A3</h3>
+        <h3 data-toggle="modal" data-target="#modalArea3">A3</h3>
       </div>
       <div class="detalles" id="detalles4">
-        <h3 id="abrir-popup4">A4</h3>
+        <h3 data-toggle="modal" data-target="#modalArea4">A4</h3>
       </div>
       <div class="detalles" id="detalles5">
-        <h3 id="abrir-popupjefatura">Jefatura</h3>
+        <h3 data-toggle="modal" data-target="#modalJefatura">Jefatura</h3>
       </div>
       <div class="detalles" id="detalles6">
-        <h3 id="abrir-popupcaseta">Caseta</h3>
+        <h3 data-toggle="modal" data-target="#modalCaseta">Caseta</h3>
       </div>
       <div class="detalles" id="detalles7">
-        <h3 id="upstairs">Planta alta</h3>
+        <h3 id="upstairs" (click)="ocultarBaja()">Planta alta</h3>
       </div>
       <div class="detallesPlantaAlta" id="detallesPlantaAlta1">
-        <h3 id="downstairs">Planta baja</h3>
+        <h3 id="downstairs" (click)="ocultarAlta()">Planta baja</h3>
       </div>
       <div class="detallesPlantaAlta" id="detallesPlantaAlta2">
-        <h3 id="lc25">LC25</h3>
+        <h3 id="lc25" data-toggle="modal" data-target="#modalLc25">LC25</h3>
       </div>
       <div class="detallesPlantaAlta" id="detallesPlantaAlta3">
-        <h3 id="lc24">LC24</h3>
+        <h3 id="lc24" data-toggle="modal" data-target="#modalLc24">LC24</h3>
       </div>
       <div class="detallesPlantaAlta" id="detallesPlantaAlta4">
-        <h3 id="lc22">LC22</h3>
+        <h3 id="lc22"data-toggle="modal" data-target="#modalLc22">LC22</h3>
       </div>
       <div class="detallesPlantaAlta" id="detallesPlantaAlta5">
-        <h3 id="redes">Lab de redes</h3>
+        <h3 id="redes"data-toggle="modal" data-target="#modalRedes">Lab de redes</h3>
       </div>
     </div>
     <div class="mapa col-md-9 col-lg-9" style="position: relative;">
       <img class="pB" id="pB"src="/assets/images/pb.png" style="width: 95%;">
       <img class="pA" id="pA" src="/assets/images/pa.png" style="width: 95%;">
     </div>
-    <div class="overlay" id="overlay">
-      <div class="popup" id="popup">
-          <a  id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times" ></i></a>
-          <h3>Área uno</h3>
-          <p>El área 1 está reservada para los alumnos. En ella pueden trabajar en sus actividades estudiantiles, sin
+  </div>
+</div>
+<div class="modal fade" id="modalArea1" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Area 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            El área 1 está reservada para los alumnos. En ella pueden trabajar en sus actividades estudiantiles, sin
             la preocupación de que ocupen ese salon.
             Esta aula cuenta con cuatro islas y dos mesas que el alumado puede utilizar para realizar sus trabajos. Además de que cuentan
             Con acceso a internet.
           </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
-    </div>  
-    <div class="overlay2" id="overlay2">
-      <div class="popup2" id="popup2">
-          <a id="btn-cerrar-popup2" class="btn-cerrar-popup2"><i class="fas fa-times" ></i></a>
-          <h3>Área dos</h3>
-          <p>
-            Esta area cuenta con <b>20</b> equipos de computo equipados para que los alumnos puedan realizar
-            sus prácticas de cada clase. Las comutadoras cuentan con los soguientes programas.
-          </p>
+    </div>
+</div>
+<div class="modal fade" id="modalArea2" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Area 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+              Esta area cuenta con <b>20</b> equipos de computo equipados para que los alumnos puedan realizar
+              sus prácticas de cada clase. Las comutadoras cuentan con los soguientes programas.
+            </p>
             <ul>
               <li>Xampp</li>
               <li>NetBeans</li>
@@ -130,17 +154,30 @@
               <li>Mysql</li>
               <li>Python</li>
             </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlay3" id="overlay3">
-      <div class="popup3" id="popup3">
-          <a  id="btn-cerrar-popup3" class="btn-cerrar-popup3"><i class="fas fa-times" ></i></a>
-          <h3>Área tres</h3>
-          <p>
-            Esta aula es la más variada con respecto al equipo de computo. Ya que tiene 4 computadoras lenovo,
-            6 computadoras HP y 6 computadoras Dell Xeon, ya que esta es una de las áreas más utilizadas por alumnos con
-            materías que implican equipos potentes para poder trabajar. Los programas que se tienen en esta área son:
-          </p>
+</div>
+<div class="modal fade" id="modalArea3" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Area 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+              Esta aula es la más variada con respecto al equipo de computo. Ya que tiene 4 computadoras lenovo,
+              6 computadoras HP y 6 computadoras Dell Xeon, ya que esta es una de las áreas más utilizadas por alumnos con
+              materías que implican equipos potentes para poder trabajar. Los programas que se tienen en esta área son:
+            </p>
             <ul>
               <li>Android studio</li>
               <li>Xampp</li>
@@ -152,12 +189,25 @@
               <li>Dia</li>
               <li>JCreator</li>
             </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlay4" id="overlay4">
-      <div class="popup4" id="popup4">
-          <a  id="btn-cerrar-popup4" class="btn-cerrar-popup4"><i class="fas fa-times" ></i></a>
-          <h3>Área cuatro</h3>
+</div>
+<div class="modal fade" id="modalArea4" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Area 4</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             El área cuatro es la que tiene equipo nuevo en su totalidad. Otorgando a los alumnos 18 equipos de computo
             DELL Xeon de última 
@@ -173,67 +223,127 @@
             <li>Dia</li>
             <li>JCreator</li>
           </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlayjefatura" id="overlayjefatura">
-      <div class="popupjefatura" id="popupjefatura">
-          <a  id="btn-cerrar-popupjefatura" class="btn-cerrar-popupjefatura"><i class="fas fa-times" ></i></a>
-          <h3>Jefatura</h3>
+</div>
+<div class="modal fade" id="modalJefatura" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Jefatura</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             En la jefatura se encuentra el docente acargo del laboratorio de sistemas, que es el Licenciado Gustoabo Solano.
             Que cuenta con la total disponibilidad para resolver cualquier inconveniente que se presente con las instalaciones.
           </p>
-          <img src="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlaycaseta" id="overlaycaseta">
-      <div class="popupcaseta" id="popupcaseta">
-          <a  id="btn-cerrar-popupcaseta" class="btn-cerrar-popupcaseta"><i class="fas fa-times" ></i></a>
-          <h3>Caseta</h3>
+</div>
+<div class="modal fade" id="modalCaseta" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Caseta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             La caseta es de vital importancia, ya que ahí se encuentra el encargado del laboratorio, que en caso
             de que el licenciaod Solano no se encuentre, él estará aacargo del laboratorio. Además, aquí se pueden encontrar las
             llaves de los salones de la planta alta, cables ethernet, cables seriales y controles de aire acondicionado.
           </p>
-          <img src="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlaylc25" id="overlaylc25">
-      <div class="popuplc25" id="popuplc25">
-          <a  id="btn-cerrar-popuplc25" class="btn-cerrar-popuplc25"><i class="fas fa-times" ></i></a>
-          <h3>LC25</h3>
+</div>
+<div class="modal fade" id="modalLc25" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LC25</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             Esta área cuenta con 15 computadoras MAC con dual boot, Windows y MAC. Está área la usan principalmente los 
             alumnos de la especialidad de moviles para realizar sus practicas para ambos sistemas operativos.
           </p>
-          <img src="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlaylc24" id="overlaylc24">
-      <div class="popuplc24" id="popuplc24">
-          <a  id="btn-cerrar-popuplc24" class="btn-cerrar-popuplc24"><i class="fas fa-times" ></i></a>
-          <h3>LC24</h3>
+</div>
+<div class="modal fade" id="modalLc24" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LC24</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             Este salon es uno de los más grandes, ya que cuenta con <b>30</b> equipos de computo reservados para los 
             alumnos que apenas inician sus carreras, ya que en este salon llas clases que se imparten con más frecuencis son 
             <b>Fundamentos de programación</b>, <b>programación orientada a objetos y estructuras de datos</b>. Este salon cuenta con la siguiente
             paquetería:
           </p>
-            <ul>
-              <li>NetBeans</li>
-              <li>Sublime Text</li>
-              <li>}Python</li>
-              <li>JCreator</li>
-              <li>Ready to program</li>
-            </ul>
-
-          <img src="">
+          <ul>
+            <li>NetBeans</li>
+            <li>Sublime Text</li>
+            <li>}Python</li>
+            <li>JCreator</li>
+            <li>Ready to program</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlaylc22" id="overlaylc22">
-      <div class="popuplc22" id="popuplc22">
-          <a  id="btn-cerrar-popuplc22" class="btn-cerrar-popuplc22"><i class="fas fa-times" ></i></a>
-          <h3>LC22</h3>
+</div>
+<div class="modal fade" id="modalLc22" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LC22</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
           <p>
             Este salon cuenta con <b>20</b> equipos de computo reservados para los 
             alumnos que apenas inician sus carreras, ya que en este salon llas clases que se imparten con más frecuencis son 
@@ -246,20 +356,34 @@
             <li>JCreator</li>
             <li>Ready to program</li>
           </ul>
-          <img src="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-    <div class="overlayredes" id="overlayredes">
-      <div class="popupredes" id="popupredes">
-          <a  id="btn-cerrar-popupredes" class="btn-cerrar-popupredes"><i class="fas fa-times" ></i></a>
-          <h3>Laboratorio de redes</h3>
-          <p>
-            Esta aula es una de las más importes, ya que es aquí donde los alumnos realizan sus prácticas de redes de forma digital con
-            ayuda del software <b>Cisco PAcket Tracer</b> para despues hacerlas en equipo real.
-            Esta area cuenta con 8 equipos DELL para realizar las prácticas virtuales y 4 estaciones equipadas con una computadora, dos switches y dos router.  
-          </p>
-          <img src="">
+</div>
+<div class="modal fade" id="modalRedes" tabindex="-1" 
+  role="dialog" aria-labelledby="exampleModalLabel" 
+  aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Laboratorio de redes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Esta aula es una de las más importes, ya que es aquí donde los alumnos realizan sus prácticas de redes de forma digital con
+                ayuda del software <b>Cisco PAcket Tracer</b> para despues hacerlas en equipo real.
+                Esta area cuenta con 8 equipos DELL para realizar las prácticas virtuales y 4 estaciones equipadas con una computadora, dos switches y dos router.  
+              </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-  </div>
 </div>

@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import * as $ from 'jquery';
 
+interface Respuesta { resultados: string[]; }
+
 @Component({
   selector: 'app-documentos-alumnos',
   templateUrl: './documentos-alumnos.component.html',
@@ -38,4 +40,11 @@ export class DocumentosAlumnosComponent implements OnInit {
   logout(){
     this.router.navigate(['/']);
   };
+
+  insertProlog(){
+    var usuario
+    this.http.post<Respuesta>(`http://localhost:3001/routes/postInsertarDescargaPrologPdf`,usuario).subscribe(info => {
+      console.log("Prolog insert");
+    });
+  }
 }

@@ -68,31 +68,33 @@
             <div class="file" style="width: 100%; height: 100px;">
               <h4 class="title">Visual Studio Code.</h4>
               <br>
-              <label id="click" for="name" onclick="show()">Ver archivos descarga</label>
+              <label id="click" for="name" (click)="mostrarVisual()">Ver archivos descarga</label>
             </div>
             <!-- DESCARGAS DE VISUAL CODE -->
             <div class="visualCode" id="visualCode" style="width: 100%; height: 0px;">
-                <img src="images/visualCode.png" style="width: 70px; height:0px;" id="visualCodeImg">
+                <img src="assets/images/visualCode.png" style="width: 70px; height:0px;" id="visualCodeImg">
                 <br>
-                <a id="visualWindows" href="programs/VSCodeUserSetup-x64-1.32.3.exe" >Descargar para Windows</a><br>
-                <a href="programs/VSCode-darwin-stable.zip" id="visualMAC">Descargar para MAC</a><br>
-                <a href="programs/code_1.34.0-1557957934_amd64.deb" id="visualDebUb">Descargar para DEBIAN O UBUNTU</a><br>
-                <a href="programs/code-1.34.0-1557958058.el7.x86_64.rpm" id="visualRhFeSu">Descargar para RED HAT, FEDORA O SUSE</a>      
+                <a id="visualWindows" href="assets/programs/VSCodeUserSetup-x64-1.32.3.exe" >Descargar para Windows</a><br>
+                <a href="assets/programs/VSCode-darwin-stable.zip" id="visualMAC">Descargar para MAC</a><br>
+                <a href="assets/programs/code_1.34.0-1557957934_amd64.deb" id="visualDebUb">Descargar para DEBIAN O UBUNTU</a><br>
+                <a href="assets/programs/code-1.34.0-1557958058.el7.x86_64.rpm" id="visualRhFeSu">Descargar para RED HAT, FEDORA O SUSE</a>  
+                <br><label id="labelVisual"(click)="ocultarVisual()">Ocultar</label>    
             </div>
           </li>
           <li>
             <div class="file" style="width: 100%; height: 100px;">
               <h4 class="title">VirtualBox.</h4>
               <br>
-              <label for="name" onclick="showVb()">Ver archivos descarga</label>
+              <label for="name" id="click" for="name" (click)="mostrarVB()">Ver archivos descarga</label>
             </div>
                 <!-- DESCARGAS DE VISUAL CODE -->
               <div class="virtualBox" id="virtualBox" style="width: 100%; height: 0px;">
-                <img src="/images/Virtualbox_logo.png" style="width: 70px; height:0px;" id="virtualBoxImg">
+                <img src="assets/images/Virtualbox_logo.png" style="width: 70px; height:0px;" id="virtualBoxImg">
                 <br>
-                <a id="vbWindows" href="programs/VirtualBox-6.0.4-128413-Win.exe" >Descargar para Windows</a><br>
-                <a href="programs/VirtualBox-6.0.8-130520-OSX.dmg" id="vbMAC">Descargar para MAC</a><br>
-                <a href="programs/virtualbox-6.0_6.0.8-130520_Debian_stretch_amd64.deb" id="vbDeb">Descargar para DEBIAN</a><br>            
+                <a id="vbWindows" href="assets/programs/VirtualBox-6.0.4-128413-Win.exe" >Descargar para Windows</a><br>
+                <a href="assets/programs/VirtualBox-6.0.8-130520-OSX.dmg" id="vbMAC">Descargar para MAC</a><br>
+                <a href="assets/programs/virtualbox-6.0_6.0.8-130520_Debian_stretch_amd64.deb" id="vbDeb">Descargar para DEBIAN</a>
+                <br><label (click)="ocultarVB()">Ocultar</label>      
               </div>
           </li>
         </ul>

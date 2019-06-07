@@ -225,6 +225,9 @@ h1{
     #searchBar{
       margin-bottom: 20px;
     }
+    #labelVisual{
+      visibility: hidden;
+    }
     label{
         color:#ffffff !important;
     }

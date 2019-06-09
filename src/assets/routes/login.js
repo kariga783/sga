@@ -16,9 +16,11 @@ router.post('/postLogin', (req, res, next) => {
             console.log("Password correcto")
             if(data[0].type == 1) {
               console.log("Alumno")
-              res.send(req.body)
+              res.send(data)
             } else { 
-              console.log("Docente") }
+              console.log("Docente") 
+              res.send(data)
+              }
             }
       } else{ next(new Error("Datos erroneos")); }
     })

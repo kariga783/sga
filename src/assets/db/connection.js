@@ -1,20 +1,29 @@
-var knex = require('knex')({
+// var knex = require('knex')({
+//     client: 'mysql',
+//     connection: {
+//       host : 'minivps.ddns.net',
+//       user : 'temp_external',
+//       password : '/eafts/*_*(KG%2682)',
+//       database : 'temp_external',
+//       port: '5506'
+//     }
+//   });
+  var knex = require('knex')({
     client: 'mysql',
     connection: {
-      host : 'minivps.ddns.net',
-      user : 'temp_external',
-      password : '/eafts/*_*(KG%2682)',
+      host : '127.0.0.1',
+      user : 'root',
+      password : '',
       database : 'temp_external',
-      port: '5506'
+      port: '3306'
     }
   });
-  
   // Mpdulo para exportar
   module.exports = {
     validar: function(correoInstitucional) {
       return knex('personUser')
       .where( 'correoInstitucional', correoInstitucional)
-      .select('nombreCompleto','correoInstitucional','password','type')
+      .select('nombreCompleto','correoInstitucional','password','type');
     },
     consultarInfoMaestros:function(correoInstitucional){
       return knex('personTeacher').
